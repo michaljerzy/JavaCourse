@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee28c92d-6353-4748-8207-8d28da63d56e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Array/MinimumElementChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Array/TypesvsValuesTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Array/ReverseArrayChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Array/MinimumElementChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Array/MinimumElementChallenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.TypesvsValuesTypes">
+  <component name="RunManager" selected="Application.ReverseArrayChallenge">
     <configuration name="ArraysChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Array.ArraysChallenge" />
       <module name="Arrays" />
@@ -63,6 +62,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumElementChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Array.MinimumElementChallenge" />
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArrayChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Array.ReverseArrayChallenge" />
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypesvsValuesTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Array.TypesvsValuesTypes" />
       <module name="Arrays" />
@@ -78,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArrayChallenge" />
+        <item itemvalue="Application.MinimumElementChallenge" />
         <item itemvalue="Application.TypesvsValuesTypes" />
         <item itemvalue="Application.ArraysChallenge" />
         <item itemvalue="Application.Main" />
@@ -118,26 +145,30 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="310" width="424" height="484" key="FileChooserDialogImpl/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579204699837" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1579551305690">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1579554783163">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579551305690" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579554783163" />
     <state width="1874" height="278" key="GridCell.Tab.0.bottom/67.27.3219.1053@67.27.3219.1053" timestamp="1579302391151" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1579551305689">
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1579554783163">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579551305689" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579554783163" />
     <state width="1874" height="278" key="GridCell.Tab.0.center/67.27.3219.1053@67.27.3219.1053" timestamp="1579302391150" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1579551305689">
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1579554783163">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579551305689" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579554783163" />
     <state width="1874" height="278" key="GridCell.Tab.0.left/67.27.3219.1053@67.27.3219.1053" timestamp="1579302391150" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1579551305690">
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1579554783163">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579551305690" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579554783163" />
     <state width="1874" height="278" key="GridCell.Tab.0.right/67.27.3219.1053@67.27.3219.1053" timestamp="1579302391150" />
+    <state x="2094" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579552337914">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2094" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579552337914" />
     <state x="1635" y="153" width="1372" height="798" key="new project wizard" timestamp="1579205206560">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
