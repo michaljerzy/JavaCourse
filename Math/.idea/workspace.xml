@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5ff4981-c41a-4c65-8b0c-c7df8b040ad5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VwtY1MIRxZr9N8xfHBvjKd1oOo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Math" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RozszerzonyNWD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.RozszerzonyNWD" />
+      <module name="Math" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RozszerzonyNWD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5ff4981-c41a-4c65-8b0c-c7df8b040ad5" name="Default Changelist" comment="" />
+      <created>1578176028340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578176028340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2134" y="239" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1578347217153">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2134" y="239" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1578347217153" />
+    <state x="2109" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579167531628">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2109" y="310" width="424" height="484" key="FileChooserDialogImpl/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1579167531628" />
+    <state width="1874" height="117" key="GridCell.Tab.0.bottom" timestamp="1578789694507">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1253" height="117" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.105.1366.768@0.105.1366.768" timestamp="1578495325937" />
+    <state width="1874" height="117" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1578789694507" />
+    <state width="1874" height="117" key="GridCell.Tab.0.center" timestamp="1578789694507">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1253" height="117" key="GridCell.Tab.0.center/1366.0.1920.1080/0.105.1366.768@0.105.1366.768" timestamp="1578495325937" />
+    <state width="1874" height="117" key="GridCell.Tab.0.center/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1578789694507" />
+    <state width="1874" height="117" key="GridCell.Tab.0.left" timestamp="1578789694507">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1253" height="117" key="GridCell.Tab.0.left/1366.0.1920.1080/0.105.1366.768@0.105.1366.768" timestamp="1578495325937" />
+    <state width="1874" height="117" key="GridCell.Tab.0.left/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1578789694507" />
+    <state width="1874" height="117" key="GridCell.Tab.0.right" timestamp="1578789694507">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1253" height="117" key="GridCell.Tab.0.right/1366.0.1920.1080/0.105.1366.768@0.105.1366.768" timestamp="1578495325937" />
+    <state width="1874" height="117" key="GridCell.Tab.0.right/1366.0.1920.1080/0.105.1366.768@1366.0.1920.1080" timestamp="1578789694507" />
+    <state x="205" y="123" key="SettingsEditor" timestamp="1578486705274">
+      <screen x="0" y="105" width="1366" height="768" />
+    </state>
+    <state x="205" y="123" key="SettingsEditor/1366.0.1920.1080/0.105.1366.768@0.105.1366.768" timestamp="1578486705274" />
+  </component>
+</project>
