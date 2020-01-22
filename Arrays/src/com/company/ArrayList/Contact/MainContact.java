@@ -1,16 +1,19 @@
-package com.company;
+package com.company.ArrayList.Contact;
 
 import com.company.ArrayList.GroceryList;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.SortedMap;
 
-public class Main {
+public class MainContact {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static GroceryList groceryList = new GroceryList();
-
+    private static ContactList contactList = new ContactList();
+    private static ArrayList<String> NameList = new ArrayList<String>();
 
     public static void main(String[] args) {
+
 
         boolean quit = false;
         int choice = 0;
@@ -25,7 +28,7 @@ public class Main {
                     printInstructions();
                     break;
                 case 1:
-                    groceryList.printGroceryList();
+                    contactList.printContact();
                     break;
                 case 2:
                     addItem();
@@ -34,12 +37,6 @@ public class Main {
                     modifyItem();
                     break;
                 case 4:
-                    removeItem();
-                    break;
-                case 5:
-                    searchForItem();
-                    break;
-                case 6:
                     quit = true;
                     break;
             }
@@ -58,38 +55,22 @@ public class Main {
         System.out.println("\t 6 - To quit the application.");
     }
 
-    public static void addItem() {
-        System.out.print("Please enter the grocery item: ");
-        groceryList.addGroceryItem(scanner.nextLine());
+    public static void addItem(){
+        System.out.println("Please enter the number: ");
+        contactList.addContact(scanner.nextLine());
+        System.out.println("Please enter the name contact");
+        contactList.addName(scanner.nextLine());
     }
 
-
-
-    public static void modifyItem() {
-        System.out.print("Enter item number: ");
-        String itemNo = scanner.nextLine();
-        scanner.nextLine();
-        System.out.print("Enter replacement item: ");
-        String newItem = scanner.nextLine();
-        groceryList.modifyGroceryItem(itemNo, newItem);
-    }
-
-    public static void removeItem() {
-        System.out.print("Current item number: ");
-        String itemNo = scanner.nextLine();
-        scanner.nextLine();
-        groceryList.removeGroceryItem(itemNo);
-
-    }
-
-    public static void searchForItem() {
-        System.out.print("Item to search for: ");
-        String searchItem = scanner.nextLine();
-        if(groceryList.onFile(searchItem)) {
-            System.out.println("Found " + searchItem + " in  our grocery list");
-        } else {
-            System.out.println(searchItem + " is not in the shopping list");
-        }
+    public static void modifyItem(){
+        System.out.println("Enter item number: ");
+        String itemNumber = scanner.nextLine();
+        System.out.println("Enter new number: ");
+        String newItemNumber = scanner.nextLine();
+        contactList.modifyContactList(itemNumber, newItemNumber);
+        System.out.println("Enter name of this contact: ");
+        String newItemName = scanner.nextLine();
+        contactList.modifyNameList(itemNumber, newItemName);
     }
 
 
