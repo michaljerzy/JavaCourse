@@ -37,6 +37,9 @@ public class MainContact {
                     modifyItem();
                     break;
                 case 4:
+                    removeItem();
+                    break;
+                case 5:
                     quit = true;
                     break;
             }
@@ -51,8 +54,7 @@ public class MainContact {
         System.out.println("\t 2 - To add an item to the list.");
         System.out.println("\t 3 - To modify an item in the list.");
         System.out.println("\t 4 - To remove an item from the list.");
-        System.out.println("\t 5 - To search for an item in the list.");
-        System.out.println("\t 6 - To quit the application.");
+        System.out.println("\t 5 - To quit the application.");
     }
 
     public static void addItem(){
@@ -67,10 +69,17 @@ public class MainContact {
         String itemNumber = scanner.nextLine();
         System.out.println("Enter new number: ");
         String newItemNumber = scanner.nextLine();
-        contactList.modifyContactList(itemNumber, newItemNumber);
         System.out.println("Enter name of this contact: ");
         String newItemName = scanner.nextLine();
-        contactList.modifyNameList(itemNumber, newItemName);
+        contactList.modifyList(itemNumber, newItemNumber ,newItemName);
+    }
+
+    public static void removeItem(){
+        System.out.println("Enter item number: ");
+        String itemNumber = scanner.nextLine();
+        contactList.removeContactItem(itemNumber);
+        contactList.removeNameItem(itemNumber);
+
     }
 
 

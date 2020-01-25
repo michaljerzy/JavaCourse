@@ -26,15 +26,16 @@ public class ContactList {
         }
     }
 
-    private void modifyNameList(int position, String newItem){
-        nameList.set(position, newItem);
+    private void modifyList(int position, String newNumberItem, String newNameItem){
+        nameList.set(position, newNameItem);
+        contactList.set(position, newNumberItem);
         System.out.println("Contact item " + (position + 1) + " has been modified.");
     }
 
-    public void modifyNameList(String currentItem, String newItem){
+    public void modifyList(String currentItem, String newNumberItem, String newNameItem){
         int position = findItem(currentItem);
         if(position >= 0){
-            modifyNameList(position, newItem);
+            modifyList(position, newNumberItem, newNameItem);
         }
     }
 
@@ -49,6 +50,18 @@ public class ContactList {
         }
     }
 
+    private void removeNameItem(int position){
+        contactList.remove(position);
+    }
+
+    public void removeNameItem(String item){
+        int position = findItem(item);
+        if(position >= 0){
+            removeNameItem(position);
+        }
+    }
+
+
     public void printContact(){
         if(contactList.size()==nameList.size()) {
 
@@ -61,7 +74,7 @@ public class ContactList {
     }
 
     private int findItem(String position){
-        return contactList.indexOf(contactList);
+        return contactList.indexOf(position);
     }
 
 
