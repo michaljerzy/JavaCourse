@@ -29,6 +29,7 @@ public class Player implements ISaveable{
         values.add(2, "" + this.hitPoints);
         values.add(3,"" + this.life);
         values.add(4, this.type);
+        values.add(5, "" + this.strength);
 
 
         return values;
@@ -41,6 +42,8 @@ public class Player implements ISaveable{
             this.hitPoints = Integer.parseInt(savedValues.get(1));
             this.strength = Integer.parseInt(savedValues.get(2));
             this.weapon = savedValues.get(3);
+            this.type = savedValues.get(4);
+
         }
     }
 

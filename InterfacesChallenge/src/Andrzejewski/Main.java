@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Player tim = new Player("Tim", 10, 20,20,"Sword", "Dark");
-        System.out.println(tim.toString());
-        saveObject(tim);
-        loadObject(tim);
-        System.out.println(tim);
+        Monster lord = new Monster("Śniący", 20000, 2000000, "chuj");
+        System.out.println(lord.toString());
+        saveObject(lord);
+        loadObject(lord);
+        System.out.println(lord);
     }
 
     public static ArrayList<String> readValues() {
@@ -45,7 +45,7 @@ public class Main {
 
     public static void saveObject(ISaveable objectToSave){
         for(int i = 0; i<objectToSave.write().size(); i++){
-            System.out.println("Saving " + objectToSave.write().get(i) + " tp storage device");
+            System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
     }
     public static void loadObject(ISaveable objectToLoad){
